@@ -1,0 +1,7 @@
+Geld=int(input("Geben die Geldsumme an: \n"))
+GF=input("Zahlt sie (Ja/Nein)! \n")
+Regen=input("Regnet es (Ja/Nein)! \n")
+if Geld >= 20 and Regen=="Ja" or GF=="Ja" :
+    print("Wir gehen in Kino.")
+else:
+    print("Wir gehen nicht ins Kino.")
